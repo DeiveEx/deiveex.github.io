@@ -5,4 +5,38 @@
 	max-width: 960px
 } */
 
-.tec
+.tech {
+	min-width: 300px;
+}
+
+.portfolioImg {
+	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/902c5607-1080-43d8-8905-9c75181a58ad/da41f3i-091f9a55-3417-49c7-8b9a-fffca7c53635.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTAyYzU2MDctMTA4MC00M2Q4LTg5MDUtOWM3NTE4MWE1OGFkXC9kYTQxZjNpLTA5MWY5YTU1LTM0MTctNDljNy04YjlhLWZmZmNhN2M1MzYzNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.oGp7CvT3uumhwwG46UO8dReixIr1MrNittRo8BdhVdc);
+	background-size: 100% auto;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-position: center;
+	transition: 0.2s;
+	position: relative;
+}
+
+.portfolioImg:hover {
+	background-size: 200% auto;
+}
+
+.portfolioImg:hover .portfolioOverlay{
+	opacity: 1
+}
+
+.portfolioOverlay {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0, 0.5);
+	color: white;
+	width: 100%;
+	opacity: 0;
+	transition: 0.2s;
+	text-align: center;
+	padding: 20px 0;
+}
