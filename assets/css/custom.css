@@ -17,13 +17,13 @@
 }
 
 .portfolio {
-	/* background-color: red; */
+	background-color: red;
 	padding: 0 20px;
 }
 
 .portfolio .container {
 	flex-wrap: wrap;
-	/* background-color: blue; */
+	background-color: blue;
 	align-items: center;
 	margin: 20 20px;
 	border-width: 2px;
@@ -32,7 +32,7 @@
 
 .portfolio h2 {
 	text-align: center;
-	/* background-color: yellow; */
+	background-color: yellow;
 }
 
 .portfolio .item{
@@ -40,13 +40,13 @@
 	max-width: 300px;
 	height: auto;
 	margin: 10 10px;
-	/* background-color: green; */
+	background-color: green;
 }
 
 .portfolioImg {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
-	/* background-color: red; */
+	background-color: red;
 	background-position: center;
 	transition: 0.2s;
 	position: relative;
