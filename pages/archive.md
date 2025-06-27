@@ -1,6 +1,5 @@
 ---
-permalink: /archive/
 title: "Archive"
+permalink: /archive/
+layout: posts
 ---
-
-Archive
