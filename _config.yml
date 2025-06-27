@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FELIPE CAVACO | Game Developer
+title: FELIPE CAVACO
 email: felipe.carmo.cavaco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Unity Developer with experience in desktop, mobile and console development
+  Game Developer with experience in desktop, mobile and console development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -48,12 +48,13 @@ defaults:
 
 logo: "/assets/images/misc/avatar.png"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+subtitle: "Game Developer"
 
 author:
   name: "Felipe Cavaco"
   avatar: "/assets/images/misc/avatar.png"
   bio: >-
-    Game Developer
+    Game Developer with a strong focus on Unity and C#
   location: "São Paulo, Brazil"
   links:
     - label: "LinkedIn"
@@ -89,3 +90,4 @@ footer:
     - label: "Youtube"
       icon: "fa-brands fa-youtube"
       url: "https://www.youtube.com/@DeiveEx"
+
