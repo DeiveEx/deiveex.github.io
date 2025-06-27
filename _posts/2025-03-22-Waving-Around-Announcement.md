@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "Annoucing my small party game: Waving Around!"
 date:   2025-03-22 13:00:00-0000
 categories: announcement my-games development games

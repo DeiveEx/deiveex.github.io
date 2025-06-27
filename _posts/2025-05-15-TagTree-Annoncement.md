@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "TagTree: An hierarchical Tag System for Unity"
 date: 2025-05-15 13:00:00-0000
 categories: announcement my-tools development tools
@@ -41,3 +40,4 @@ The tool is already pretty complete and easy to use, but there's a couple of thi
 - Generate C# scripts for Tags: right now you can create a field of type *TagReference* and a custom dropdown will appear in the inspector for you to choose your tag. But if for some reason you don't want to use the inspector to choose Tags, your only other choice is to use their string name. It would be nice to generate a C# script with constants for each tag.
 
 If that picked your interested, [click here to check it out!](https://assetstore.unity.com/packages/tools/utilities/tagtree-319017)
+{: .notice--info}

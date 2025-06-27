@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "I won a Games Contest!"
 date:   2025-06-20 13:00:00-0000
 categories: my-games development contest games
