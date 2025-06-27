@@ -18,19 +18,74 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: FELIPE CAVACO | Game Developer
+email: felipe.carmo.cavaco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Unity Developer with experience in desktop, mobile and console development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Theme options
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      layout: single
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: false
+      layout: single
+
+logo: "/assets/images/misc/avatar.png"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+author:
+  name: "Felipe Cavaco"
+  avatar: "/assets/images/misc/avatar.png"
+  bio: >-
+    Game Developer
+  location: "São Paulo, Brazil"
+  links:
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/felipe-carmo-cavaco/"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/DeiveEx"
+    - label: "X/Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/DeiveExDev"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/deiveexdev.bsky.social"
+    - label: "Youtube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@DeiveEx"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/felipe-carmo-cavaco/"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/DeiveEx"
+    - label: "X/Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/DeiveExDev"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/deiveexdev.bsky.social"
+    - label: "Youtube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@DeiveEx"
