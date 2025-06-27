@@ -1,12 +1,99 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title: Deive_Ex's Portfolio
-description: Felipe Carmo Cavaco (aka "Deive_Ex") Portfolio
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# User settings
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+title: FELIPE CAVACO
+email: felipe.carmo.cavaco@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Game Developer with experience in desktop, mobile and console development
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Theme options
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      layout: single
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: false
+      layout: single
+
+logo: "/assets/images/misc/avatar.png"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+subtitle: "Game Developer"
+
+author:
+  name: "Felipe Cavaco"
+  avatar: "/assets/images/misc/avatar_real.jpg"
+  bio: >-
+    Game Developer with a strong focus on Unity and C#
+  location: "SP, Brazil"
+  links:
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/felipe-carmo-cavaco/"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/DeiveEx"
+    - label: "X/Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/DeiveExDev"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/deiveexdev.bsky.social"
+    - label: "Youtube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@DeiveEx"
+    - label: "E-mail"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:felipe.carmo.cavaco@gmail.com"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/felipe-carmo-cavaco/"
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/DeiveEx"
+    - label: "X/Twitter"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://x.com/DeiveExDev"
+    - label: "Bluesky"
+      icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/deiveexdev.bsky.social"
+    - label: "Youtube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@DeiveEx"
+    - label: "E-mail"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:felipe.carmo.cavaco@gmail.com"
+
