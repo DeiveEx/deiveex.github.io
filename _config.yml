@@ -52,10 +52,10 @@ subtitle: "Game Developer"
 
 author:
   name: "Felipe Cavaco"
-  avatar: "/assets/images/misc/avatar.png"
+  avatar: "/assets/images/misc/avatar_real.jpg"
   bio: >-
     Game Developer with a strong focus on Unity and C#
-  location: "São Paulo, Brazil"
+  location: "SP, Brazil"
   links:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
@@ -72,6 +72,9 @@ author:
     - label: "Youtube"
       icon: "fa-brands fa-youtube"
       url: "https://www.youtube.com/@DeiveEx"
+    - label: "E-mail"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:felipe.carmo.cavaco@gmail.com"
 
 footer:
   links:
@@ -90,4 +93,7 @@ footer:
     - label: "Youtube"
       icon: "fa-brands fa-youtube"
       url: "https://www.youtube.com/@DeiveEx"
+    - label: "E-mail"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:felipe.carmo.cavaco@gmail.com"
 
