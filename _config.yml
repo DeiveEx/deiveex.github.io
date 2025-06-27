@@ -49,6 +49,7 @@ defaults:
 logo: "/assets/images/misc/avatar.png"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 subtitle: "Game Developer"
+search: true
 
 author:
   name: "Felipe Cavaco"
