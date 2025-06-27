@@ -9,7 +9,7 @@ header:
       - label: "Unity Asset Store"
         url: "https://assetstore.unity.com/packages/tools/utilities/tagtree-319017"
 show_overlay_excerpt: true
-excerpt: Announcing my tool/extension for better Unity tags!
+excerpt: Tired of all the limitations of Unity Tags? Try my tool/extension for better Unity tags!
 ---
 
 Hello again!

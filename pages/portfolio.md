@@ -12,7 +12,7 @@ feature_row:
     excerpt: >-
         **Winner of the Rising Tide Challenge by Blue Ocean Games**
         ---
-        Grow bizarre plants, meet the derenged locals, fight for your survival and maybe even learn how to use it all in your favor in this **horror farming simulator**
+        Grow bizarre plants, meet the derenged locals and fight for your survival in this **horror farming simulator**.
     url: https://youtu.be/XS1fDa9FvGg?si=car9H_J0rSfkOsms
     btn_label: "Youtube"
     btn_class: "btn--primary"
