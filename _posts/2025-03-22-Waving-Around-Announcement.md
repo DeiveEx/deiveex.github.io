@@ -4,8 +4,10 @@ title:  "Annoucing my small party game: Waving Around!"
 date:   2025-03-22 13:00:00-0000
 categories: announcement my-games development games
 header:
-    overlay_color: "#fff"
-    overlay_filter: linear-gradient(45deg, rgb(246, 195, 42), rgb(248, 112, 78))
+    overlay_image: /assets/images/WavingAround/Cover.jpg
+    overlay_filter: 0.7
+    # overlay_color: "#fff"
+    # overlay_filter: linear-gradient(45deg, rgb(246, 195, 42), rgb(248, 112, 78))
     actions:
       - label: "On Steam"
         url: "https://store.steampowered.com/app/2770500/Waving_Around/"
