@@ -8,7 +8,7 @@ header:
     # overlay_color: "#fff"
     # overlay_filter: linear-gradient(45deg, rgb(246, 195, 42), rgb(248, 112, 78))
     actions:
-      - label: "On Steam"
+      - label: "Steam"
         url: "https://store.steampowered.com/app/2770500/Waving_Around/"
 show_overlay_excerpt: true
 excerpt: Wishlist it on Steam!

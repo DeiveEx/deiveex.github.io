@@ -13,8 +13,8 @@ feature_row:
         **Winner of the Rising Tide Challenge by Blue Ocean Games**
         ---
         Grow bizarre plants, meet the derenged locals and fight for your survival in this **horror farming simulator**.
-    url: https://youtu.be/XS1fDa9FvGg?si=car9H_J0rSfkOsms
-    btn_label: "Youtube"
+    url: /posts/2025-06-20-I-won-a-games-contest
+    btn_label: "Blog Post"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/Portfolio/TagTree.png
@@ -73,5 +73,8 @@ feature_row:
     btn_label: "Itch.io"
     btn_class: "btn--primary"
 ---
+
+These are some of the projects I'm allowed to show publicly. Having worked mostly for clients, most of my professional work is either under NDA, was cancelled or is still unreleased.
+You're welcome to schedule a call with me so I can give more details about my role in these projects, though.
 
 {% include feature_row %}
