@@ -31,7 +31,15 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# Override the posts collections default permalink so it's easier to link them
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+
 # Theme options
+include: ["_pages"]
+
 defaults:
   - scope:
       path: ""
@@ -39,6 +47,10 @@ defaults:
     values:
       author_profile: true
       layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
   - scope:
       path: ""
       type: pages
