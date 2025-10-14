@@ -51,6 +51,6 @@ So, that brings us to today: my current objective is to make a playable prototyp
 
 Well, there you go, my first Devlog ever. I probably ranted a lot, and there was basically no dev-related stuff, but that's why this is chapter zero haha
 
-I'm hoping to write one of these at least once a month, but we'll see. On the next one I'll try to get a bit more technical and show what I've actually been working on. Spoiler alert: very early stuff. But hopefully, by documenting the process here, it'll help me (and you, dear reader) see how the game is progressings.
+I'm hoping to write one of these at least once a month, but we'll see. On the next one I'll try to get a bit more technical and show a bit more about the process behind the RTC trailer, and maybe even what I've actually been working on. Spoiler alert: very early stuff. But hopefully, by documenting the process here, it'll help me (and you, dear reader) see how the game is progressings.
 
 Well, I don't know what else to say so... See you on the next entry!
