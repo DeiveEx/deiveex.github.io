@@ -35,13 +35,13 @@ I actually had the basic script for the trailer mostly done even before knowing 
 
 I guess you could say I was the "director" for the trailer. I don't think I ever directed anything. Thankully, in our team we have aperson with experience creating small movies, so they helped me a bit. [The guys at BOG also provided a nice livestream explaining what makes a good trailer](https://blueoceangames.com/resources/posts/advice-from-trailer-expert-derek).
 
-![Our shot list](..\assets\images\GrowingHorrors\rtc_shot_list.png)
+{% include figure popup=true image_path="\assets\images\GrowingHorrors\rtc_shot_list.png" alt="Our shot list" caption="Our shot list" %}
 
 One of the requirements for the trailer is that most of it, if not all, should be created using in-engine footage, so that made my life easier since that was exacyly what I was planning on doing. That said, I had this idea only on paper, aside from a few systems, I hadn't developed anything for it yet. The hundreds of Humble Bundle assets I've been gathering over the years would finally have some use!
 
 I have a few very specific things in mind I wanted to do: First, I wanted to use a "3D Pixel Art" Style. Not only I find it very cool, but I believe it also allows you to merge different 3D assets more easily, since a lot of detail is lost when dowscaling the resolution.
 
-![Some of the references I gathered](..\assets\images\GrowingHorrors\rtc_references.png)
+{% include figure popup=true image_path="\assets\images\GrowingHorrors\rtc_references.png" alt="Some of the references I gathered" caption="Some of the references I gathered" %}
 
 Secondly, I wanted to a tell a small history, progressively showing how more and more weird things start to happen the longer you play (hence why the name GROWING Horrors). So, I had this idea of separating the trailer in "days", and each day shows more and more weird things.
 
@@ -51,7 +51,7 @@ So, with that, I've created a new Unity Project and we started development.
 
 Like I mentioned before, I had nothing of the game developed, so most things in the trailer are just "cutscenes" created using Unity's Timeline System. It's pretty hand for this kind of things. I still developed a few scripts, like one to use certain tools animations and another to modify the tilemap dinamically so I could show things like tiling the ground or watering seeds. I've divided each shot of the trailer into a scene with their equivalent Timeline. I do control the character from time to time though (like the show where you water the plants).
 
-![Behold the Unity mess](..\assets\images\GrowingHorrors\rtx_unity.png)
+{% include figure popup=true image_path="\assets\images\GrowingHorrors\rtx_unity.png" alt="Behold the Unity mess" caption="Behold the Unity mess" %}
 
 In total we were a team of five people. Six if you include my girlfriend, which didn't directly work on the trailer but provided some of the character concepts
 
@@ -72,7 +72,7 @@ But I still had hope. If you've ever watched Aggretusko before, there's a quote 
 
 After two weeks of voting, the results were revealed. And lo and behold, our trailer created from scratch in a month won the judges pick!
 
-![RTC Winners!](..\assets\images\misc\RisingTideWinners.png)
+{% include figure popup=true image_path="/assets/images/misc/RisingTideWinners.png" alt="Rising Tide Challenge Winners by Judge's pick" caption="Rising Tide Challenge Winners by Judge's pick" %}
 
 We got #205 in the public voting, which was good, but personally I was hoping to be at below #100. But that's okay! I mean, again, some of these projects are in development for years, and you can see the work in their trailers. I also got some feedback about my trailer that I agree with. Still, being selected by the judges was huge!
 
