@@ -1,6 +1,6 @@
 ---
 title:  "Growing Horrors - Devlog 0"
-date:   2025-03-22 13:00:00-0000
+date:   2025-10-13 23:00:00-0000
 categories: announcement my-games development games devlog growing-horrors
 header:
     overlay_image: /assets/images/GrowingHorrors/Logo_V1_color_Negative.png
