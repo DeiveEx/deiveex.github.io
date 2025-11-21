@@ -6,6 +6,15 @@ header:
   overlay_color: "#333"
 
 feature_row:
+  - image_path: /assets/images/Portfolio/ElementalRaiders.jpg
+    alt: "Elemental Raiders"
+    title: "Elemental Raiders"
+    excerpt: >-
+        **A free-to-play turn-based hero battler that** combines features from collectible card games and multiplayer RPGs.
+    url: https://elementalraiders.gfal.com/
+    btn_label: "Website"
+    btn_class: "btn--primary"
+    
   - image_path: /assets/images/Portfolio/GrowingHorrors.png
     alt: "Growing Horros"
     title: "Growing Horrors"
@@ -75,6 +84,6 @@ feature_row:
 ---
 
 These are some of the projects I'm allowed to show publicly. Having worked mostly for clients, most of my professional work is either under NDA, was cancelled or is still unreleased.
-You're welcome to schedule a call with me so I can give more details about my role in these projects, though.
+You're welcome to schedule a call with me so I can give more details about my role in these projects, though!
 
 {% include feature_row %}
