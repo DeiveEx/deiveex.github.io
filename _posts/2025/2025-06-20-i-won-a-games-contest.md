@@ -9,7 +9,7 @@ show_overlay_excerpt: true
 excerpt: "My game concept **Growing Horrors** is one of the winners of the [Rising Tide Challenge by Blue Ocean Games](https://blueoceangames.com/challenge/winners)!"
 ---
 
-Wow, the results are just out and I can't believe my eyes: my game concept **Growing Horrors** is one of the winners of the [Rising Tide Challenge by Blue Ocean Games](https://blueoceangames.com/challenge/winners)!!!
+Wow! the results are just out and I can't believe my eyes: my game concept **Growing Horrors** is one of the winners of the [Rising Tide Challenge by Blue Ocean Games](https://blueoceangames.com/challenge/winners)!!!
 
 {% include figure popup=true image_path="/assets/images/misc/RisingTideWinners.png" alt="Rising Tide Challenge Winners by Judge's pick" caption="Rising Tide Challenge Winners by Judge's pick" %}
 
